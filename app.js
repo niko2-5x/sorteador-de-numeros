@@ -4,7 +4,7 @@ function sortear() {
     let numeroMaximo = parseInt(document.getElementById('ate').value);
 
     if (numeroMinimo >= numeroMaximo) {
-        alert('O número mínimo deve ser menor que o número máximo!');
+        alert('O valor digitado em "Do número" deve ser menor que o valor digitado em "Até o número"! Revise as informações inseridas.');
         return;
     }
 
